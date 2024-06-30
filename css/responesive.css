@@ -1,0 +1,28 @@
+
+@media only screen and (min-width: 2000px) {
+  .circleBackground {
+    width: 2300px;
+    height: 2300px;   
+  }
+}
+
+@media only screen and (max-width: 1400px) {
+  .circleBackground {
+    width: 1300px;
+    height: 1300px;   
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .circleBackground {
+    width: 1000px;
+    height: 1000px;   
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .circleBackground {
+    width: 550px;
+    height: 550px;
+  }
+}

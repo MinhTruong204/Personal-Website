@@ -1,0 +1,10 @@
+.circleBackground {
+    width: 1500px;
+    height: 1500px;
+    border-radius: 50%;
+    background: radial-gradient(circle, white,#aabacd);
+    position: absolute;
+    top: -50vw;
+    right: -50vw;
+    
+}
