@@ -11,6 +11,12 @@
     width: 1300px;
     height: 1300px;   
   }
+
+  .container_myself_info-name {
+    font-size: 3rem;
+
+  }
+  
 }
 
 @media only screen and (max-width: 1200px) {
@@ -20,9 +26,75 @@
   }
 }
 
+@media only screen and (max-width: 992px) {
+
+  .container {
+    margin: 0;
+    padding-left: 5vw;
+    padding-right: 5vw;
+  }
+
+  .header_navbar_toggle {
+    display: block;
+  }
+
+  .header_navbar_menu_list {
+    flex-direction: column;
+    display: none;
+    padding: 0;
+    height: 50vh;
+  }
+
+  .sth {
+    display: none;
+  }
+
+  .header_navbar_menu {
+    position: absolute;
+    top: 4rem;
+    z-index: 2;
+    background-color: var(--mainColor_5);
+    width: 100vw;
+    left: 0;
+  }
+
+  .header_navbar_menu_item {
+    flex: 1;
+    border-bottom: .5px rgb(76, 82, 83 , 0.2) solid;
+    align-items: center;
+    display: flex;
+    align-items: center;
+  }
+
+  .container_myself{
+    flex-direction: column-reverse;
+  }
+
+  .container_myself-avatar {
+    position: relative;
+    left: auto;
+    align-self: center;
+    height: 40vw;
+    width: 40vw;
+  }
+
+  .container_myself_section {
+    flex: auto;
+  }
+
+  .container_myself_info-title {
+    padding-top: 50px;
+  }
+}
+
 @media only screen and (max-width: 576px) {
   .circleBackground {
     width: 550px;
     height: 550px;
+  }
+
+  .container_myself-avatar {
+    height: 40vh;
+    width: 40vh;
   }
 }

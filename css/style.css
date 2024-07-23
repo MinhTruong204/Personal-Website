@@ -6,5 +6,11 @@
     position: absolute;
     top: -50vw;
     right: -50vw;
-    
+
+}
+.sth {
+    position: absolute;
+    right: -50vw;
+    top: 30vh;
+    font-size: -webkit-xxx-large;
 }

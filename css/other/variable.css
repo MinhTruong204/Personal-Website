@@ -1,0 +1,8 @@
+:root {
+    --mainColor_1 : rgb(47, 193, 255);
+    --mainColor_2 : rgb(8, 172, 242);
+    --mainColor_3 : rgb(16, 18, 24);
+    --mainColor_4 : rgb(76, 82, 83);
+    --mainColor_5 : rgb(243, 246, 246);
+    --border : 1px solid rgb(76, 82, 83 , 0.2);
+}

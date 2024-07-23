@@ -1,0 +1,195 @@
+.container {
+    
+}
+
+.backgroundimg {
+    background-image: url(/img/background.jpg);
+    height: 50vh;
+    width: 100vw;
+    background-size: cover;
+    position: absolute;
+    left: 0;
+    background-attachment: fixed;
+}
+
+.container_myself {
+    display: flex;
+
+}
+
+.container_myself_info-br {
+    background-color: var(--mainColor_4);
+    width: 3rem;
+    height: 2px;
+    margin-top: 10px;
+}
+
+.container_myself_section {
+    flex: 1;
+}
+
+.container_myself_info-title {
+    color: var(--mainColor_4);
+
+}
+
+.container_myself_info-name {
+    margin-top: 10%;
+    color: var(--mainColor_3);
+    font-size: 5rem;
+}
+
+.container_myself_info-major {
+    color: var(--mainColor_1);
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+
+}
+
+.container_myself_info_contact_list {
+    list-style: none;
+}
+
+.container_myself_info_contact_item {
+    display: flex;
+    margin-bottom: 10px;
+    
+}
+
+.container_myself_info_contact_item-icon {
+    margin-right: 10px;
+    color: var(--mainColor_2);
+   
+}
+
+.container_myself_info-contact {
+    margin-top: 10%;
+}
+
+.container_myself-avatar {
+    position: absolute;
+    left: 50%;
+    width: 40vw;
+    height: 40vw;
+    border-radius: 50%;
+    background-color: var(--mainColor_4);
+    background-image: url("/img/avatar.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container_aboutme {
+    margin-top: 200px;
+}
+
+.container_aboutme_part {
+    margin-bottom: 100px;
+}
+
+.container_aboutme_part-intro-content {
+    display: flex;
+    margin-top: 5rem;
+}
+
+.container_aboutme_part-intro-content_part {
+    flex: 1;
+}
+
+.container_aboutme_part-intro-heading-content-title {
+    max-width: 60%;
+    font-weight: 900;
+}
+
+.container_aboutme_part-whatido-work {
+    margin-top: 100px;
+}
+
+.container_aboutme_part-whatido-work-part {
+    display: flex;
+}
+
+.container_aboutme_part-whatido-work-icon {
+    color: var(--mainColor_2);
+    font-size: 1.5rem;
+    margin-right: 2rem;
+}
+
+.container_aboutme_part-whatido-work-content-title {
+    margin-bottom: 1rem;
+}
+
+.container_aboutme_part-whatido-work-part:nth-child(2) {
+    border: var(--border);
+    border-top: 0;
+    border-bottom: 0;
+}
+
+.container_aboutme_part-skillxexper {
+    display: flex;
+    margin-top: 70vh;
+}
+
+.container_aboutme_part-skillxexper_title {
+    margin: 5rem auto;
+}
+
+.container_aboutme_part-skillxexper-part{
+    flex: 1;
+}
+
+.container_aboutme_part-skillxexper-skill {
+    padding-right: 5rem;
+}
+.container_aboutme_part-skillxexper-skill-content-percentbar {
+    width: 100%;
+    height: 1rem;
+    background-color: white;
+    border-radius: 1rem;
+}
+
+.container_aboutme_part-skillxexper-skill-content-activepercent{
+    height: 100%;
+    background-color: var(--mainColor_2);
+    border-radius: 1rem;
+    line-height: 1rem;
+    color: white;
+    font-weight: 100;
+    text-align: end;
+    padding-right: 1rem;
+    font-size: small;
+
+}
+
+.container_aboutme_part-skillxexper-skill-content-item {
+    margin-bottom: 1rem;
+}
+
+
+.container_aboutme_part-skillxexper-exper-content_item {
+    display: flex;
+    padding-bottom: 3rem;
+}
+
+.container_aboutme_part-skillxexper-exper-content-descri {
+    flex: 4;
+    padding-left: 2rem;
+    padding-top: 0.5rem;
+}
+
+.container_aboutme_part-skillxexper-exper-content-timeline {
+    flex: 1.5;
+    text-align: end;
+}
+
+.container_aboutme_part-skillxexper-exper-content-descri-tilte {
+    padding-bottom: 2rem;
+}
+
+.dividerbar {
+    display: block;
+    border: var(--border);
+    width: 100%;
+}
+

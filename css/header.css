@@ -1,0 +1,22 @@
+.header {
+    padding-left: 5vw;
+    padding-right: 5vw;
+}
+.header_navbar {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+.header_navbar_toggle {
+    display: none;
+    cursor: pointer;
+}
+
+.header_navbar_menu_list {
+    list-style: none;
+    display: flex;
+}
+
+.header_navbar_menu_item {
+    cursor: pointer;
+}
